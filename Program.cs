@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Computation!");
-            Console.WriteLine("Usecase 2");
+            Console.WriteLine("Usecase 3");
             EmpDailyWage.CalEmployeeWage();
             //SwitchCase.CalConditionalWage();
             //EmployeeCheck.EmployeeAttendance();
