@@ -5,8 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Computation!");
+            Console.WriteLine("Usecase 2");
+            EmpDailyWage.CalEmployeeWage();
             //SwitchCase.CalConditionalWage();
-            EmployeeCheck.EmployeeAttendance();
+            //EmployeeCheck.EmployeeAttendance();
             //EmpWageBuilerArray empWageBuilerArray = new EmpWageBuilerArray();
 
             //empWageBuilerArray.addCompanyEmpWage("DMart", 20, 2, 10);
