@@ -13,7 +13,7 @@ namespace EmployeeWage
         public static void CalEmployeeWage()
         {
             int IS_FULL_TIME = 1;
-            //int IS_PART_TIME = 2;
+            int IS_PART_TIME = 2;
             int PER_HR_WAGE = 20;
             int empHrs = 0;
             int empWage = 0;
@@ -27,11 +27,11 @@ namespace EmployeeWage
                 Console.WriteLine("Employee is Full Time");
                 empHrs = 8;
             }
-            ///else if (empCheck == IS_PART_TIME)
-           // {
-                //Console.WriteLine("Employee is Part Time");
-               // empHrs = 4;
-            //}
+            else if (empCheck == IS_PART_TIME)
+           {
+               Console.WriteLine("Employee is Part Time");
+               empHrs = 4;
+            }
 
             else
             {
